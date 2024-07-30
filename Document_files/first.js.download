@@ -1,0 +1,242 @@
+// let a=4;
+// let b=5;
+// console.log("a=" ,a ,"& b=" ,b);
+// console.log("a+b=" , a+b);
+// console.log("a-b=" , a-b);
+// console.log("a*b=" , a*b);
+// console.log("a/b=" , a/b);
+// console.log("a%b=" , a%b);
+// console.log("a**b=" , a**b);
+
+// console.log("a++=",a++);
+// console.log("a=",a);
+// console.log("b--=" , b--);
+// console.log("b=",b);
+//Assignment operators
+// let a=4;
+// let b=5;
+// a=2;
+// console.log("a=" , a);
+//comparison operators
+// let a=4;
+// let b=8;
+// console.log("!(a!==b) =" , !(a!==b) );
+//conditional Statement
+//odd or even
+// if(age<21)
+// {
+//     console.log("junior");
+
+// }
+// else if(age>60)
+// {
+//     console.log("senior");
+// }
+// else
+// {
+//     console.log("invalid")
+// }
+// let age = 27;
+// switch(age){
+//     case 17:
+//         console.log("mahnoor");
+//         break;
+//     case 27: 
+//     console.log("eesha");
+//     break;
+//     default:
+//         console.log("laiba")   ;
+// }
+//practice set 1
+// let num=prompt("Enter a Number");
+// console.log(num);
+// num%3===0 ? console.log("multiple"):  console.log( "not multiple");
+//practice set 2
+// let score=prompt("Enter Your Score");
+// console.log(score);
+// let grade;
+// if(score >=90 && score <=100)
+// {
+//     grade ="A";
+// }
+// else if(score >=70 && score <=89)
+// {
+//     grade ="B";
+// }
+// else if(score >=60 && score <=69)
+// {
+//     grade ="C";
+// }
+// else if(score >=50 && score <=59)
+// {
+//     grade ="D";
+// }
+// else if(score >=0 && score <=49)
+// {
+//     grade ="F";
+// }
+// else{
+//     grade="invalid";
+// }
+// console.log(grade);
+// let sum=0;
+// for(let i=1;i<=10;i++)
+// {
+//     sum=sum+i;
+//     console.log(i);
+ 
+
+// }
+// console.log(i);
+// console.log("loop has ended");
+//while loop
+// let i=1;
+// do{
+//     console.log("i" ,i);
+//     i++; 
+// }
+// while(i<=5);
+//  let str="Laiba Siddique";
+//  for(let i of str)
+// {
+//  console.log("i=" ,i);
+//  }
+// const student=
+// {
+// name:"Laiba Siddique",
+// rollno:87,
+// cgpa:3.8,
+// ispass:true
+// }
+// for(let key in student)
+// {
+//     console.log(key , "=" , student[key]);
+// }
+// for(let num=0;num<=100;num++)
+// {
+//     if(num%2!==0)
+//     {
+//         console.log("num=" ,num);
+//     }
+// }
+// let gamenum=10;
+// let usernum=prompt("guess correct number");
+// while (usernum!=gamenum)
+// {
+//     usernum=prompt("you have guessed wrong no .guess again");
+// }
+// console.log("congratulations! you have guessed right");
+// const obj=
+// {
+// item:"pen" ,
+// price :20
+// }
+// console.log(`the cost of ${obj.item} is ${obj.price} rupees `);
+// let Laiba=`thisis\tlaibahere`;
+// console.log( Laiba.length );
+// let str="LaibaSiddique";
+// let str2="jiaSiddique";
+// let res=str+    str2;
+// console.log(res);
+// let obj="Laibabababababa";
+// console.log(obj.charAt(2));
+// let fullName=prompt("enter your full name");
+// let str2=fullName.length;
+// let str3="@";
+// console.log(str3.concat(fullName).concat(str2));
+// let cities=["fsd","isl","lhr","tandla","okara","multan","kashmir" ,"pindi"];
+// for(let i=0;i<marks.length;i++)
+// {
+//     console.log(marks[i]);
+// }
+// for (let city of cities)
+// {
+//     console.log(city.toUpperCase());
+// }
+//  let marks=[10,20,30,40,50,60];
+//  let sum=0;
+//  for(let val of marks)
+//  {
+//   sum=sum+val;
+//  }
+//  let avg=sum/marks.length;
+//  console.log(avg);
+// let items=[250,645,300,900,50];
+// let offer;
+// for( let i=0;i<items.length;i++)
+// {
+//      console.log(`the value at index ${i} is = ${items[i]}`);
+//      offer=items[i]/10;
+//      items[i]-=offer;
+//      console.log(`the value at index ${i} =${items[i]}`);
+// }
+//  let arr=[1,2,3,4,5,6,7,8,9,10];
+// arr.splice(1,1,101);
+// let deleted=foodItems.pop();
+// console.log(foodItems);
+// console.log(deleted);
+// let companies=["Microsoft","Uber","IBM","Google","Netflix","bloomberg"];
+// companies.splice(1,1,"OLA");
+// const arrowsum=(a,b)=>
+// {
+//      console.log(a+b);  
+// };
+// const mul=(a,b)=>
+// {console.log(a*b);
+// };
+// const print=()=>{
+//      console.log("print hello");
+// };
+// function countvowel(str){
+//   let count=0;
+//   for(let char of str)
+//   {
+//      if(char==="a" || char === "e" || char=== "i" || char=== "o" || char=== "u")
+//      count++;
+     
+//   }
+//   return count;
+// }
+// let vowelcount=(str)=>
+// {
+//      let count=0;
+//      for(let char of str)
+
+//         if(char==="a" || char === "e" || char=== "i" || char=== "o" || char=== "u")
+//         count++;
+        
+
+//      return count;
+// }
+// function abc(){
+//      console.log("hello");
+// }
+// function myfunc(abc){
+//      return abc;
+// }
+// myfunc(abc);
+// let arr=["laiba","jia","feeza"];
+
+// arr.forEach((val,idx ,arr)=>{
+//      console.log(val.toUpperCase(), idx,arr)
+// });
+// let arr=[2,3,4,5,6,7];
+// let newarray=arr.map((val)=>
+// {
+//      return val*2;
+// });
+// console.log(newarray);
+// let arr=[1,2,3,4,5,67,8,9,0,6,7,10];
+
+// let evenarr=arr.filter((val)=>{
+// return val >4;
+// });
+// console.log(evenarr);
+// let marks=[60,70,80,95,99];
+
+// const output=marks.filter((val)=>{
+//      return val>90;
+// });
+// console.log(output);
+// 
+console.dir(document.body.childNodes);
